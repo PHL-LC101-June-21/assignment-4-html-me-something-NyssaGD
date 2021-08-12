@@ -4,17 +4,70 @@ body {
   background-color: lightpink;
 }
 
-h1 {
-  color: lemonchiffon ;
-  text-align: center;
-  font-family: 'Titan One';
-  font-size: 70px;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  width:67%;
+  /* I made a header because I wanted to flex. To fulfil 3.b of the rules to follow see below 
+  (its the fun facts section in html) */
 }
 
 nav {
+    font-family: 'Major Mono Display';
     text-align:center;
+    font-size: 30px;
+    padding: 50px;
+} 
+
+ nav a:hover {
+    background-color: Salmon;
+    color: black;
+  
+  }
+  
+
+
+article {  
+    display: block;
+    border-radius: 25px;
+    background-color: pink;
+    width: 1000px;
+    padding: 100px;
+    margin: auto;
+/* I'm not giving the margin a value of 8px like rule 3.A states because
+ I'm going with a more visually pleasing website, so instead my margin 
+ is set to auto in order to be center :D */
+}
+
+h2{
+    font-family: 'Major Mono Display';
+    font-size: 36px;
+    font-kerning: normal;
 }
 p {
   font-family: verdana;
-  font-size: 20px;
+  font-size: 17px;
+  line-height: 1.6;
+  text-indent: 35px;
+}
+#mainHeading {
+   color: Salmon;
+   /* I went with a shade of red for the this header instead of obnoxious red. Also I wouldn't call this
+   mainHeading IRL because it's in the center to break things up but I wanted to semi follow directions*/
+}
+#funestfacts {
+    font-family: verdana;
+    font-size: 17px;
+    line-height: 1.6;
+}
+.funParagraph {
+    color: DarkSlateGray;
+    /* I am not putting gross green text on this beautiful color scheme, so instead, how about a 
+    dark slate gray to kindof follow the rulse of 3.c */
+}
+
+footer {
+    text-align: center;
+    color: palevioletred;
 }
